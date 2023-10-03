@@ -1,1 +1,0 @@
-To run the scripts all folders and subfolders need to be added to the matlab search path.
