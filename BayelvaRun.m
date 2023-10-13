@@ -37,7 +37,7 @@ sim = StefanSim2(grid', ... %grid
                  Tair_handl, ... % dirichlet condition
                  @(x)0, ... % nuemann condition 
                  repmat(-10000000,length(grid)-1,1), ... % initial condition
-                 50, ... % factor to define scale the timestep
+                 40, ... % factor to scale the timestep
                  0, ... % do not plot diagnose info while while running
                  1) % use backward euler 
 
